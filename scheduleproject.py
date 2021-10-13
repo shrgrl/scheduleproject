@@ -8,8 +8,8 @@ from selenium.webdriver.support import expected_conditions as EC
 
 #Windows arka planda çalıştırmak için
 chrome_options = webdriver.ChromeOptions()
-#chrome_options.headless = True
-chrome_options.headless = False
+chrome_options.headless = True
+#chrome_options.headless = False
 
 #Warning hide yapmak için, sadece fatal hatalar gösterir
 chrome_options.add_argument('--log-level=3')
