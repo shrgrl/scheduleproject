@@ -1,3 +1,0 @@
-web:    python scheduleproject.py
-worker: python scheduleproject.py 
-clock:  python clock.py
